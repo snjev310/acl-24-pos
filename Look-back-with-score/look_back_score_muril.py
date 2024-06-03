@@ -23,7 +23,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 
 
 # %%
-df = pd.read_excel('/raid/speech/sanjeev/work/Code/Data_merged_final_2_jan_31_jan_5_feb_update.xlsx')
+df = pd.read_excel('pos_data_set.xlsx')
 df.head(1)
 
 
