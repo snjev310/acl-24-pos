@@ -1,1 +1,1 @@
-# acl-24-pos
+# POS Tagging for Extremely Low-resource Indian Languages
