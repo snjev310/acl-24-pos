@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the dataset and code for the research paper titled "POS Tagging for Extremely Low Resource Indian Languages". The objective of this research is to develop and evaluate methods for Part-of-Speech (POS) tagging in extremely low-resource Indian languages using advanced machine learning and natural language processing techniques.
+This repository contains the dataset and code for the research paper titled "POS Tagging for Extremely Low Resource Indian Languages". The objective of this research is to develop and evaluate methods for Part-of-Speech (POS) tagging in extremely low-resource Indian languages using various multilingual massive pretrained language models.
 
 
 ## Files and Directories
@@ -30,7 +30,7 @@ This repository contains the dataset and code for the research paper titled "POS
 
 Ensure you have the following installed:
 - Python 3.7 or higher
-- Required Python packages listed in `requirements.txt`
+
 
 ## Contact
 - For any questions or issues, please contact:
