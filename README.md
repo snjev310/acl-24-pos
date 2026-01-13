@@ -37,11 +37,12 @@ Ensure you have the following installed:
 - Sanjeev Kumar: sanjeev@cse.iitb.ac.in
 
 ## Bibtext
-If you're using the dataset, please cite
+- If you're using the dataset, please cite
+  
 @inproceedings{kumar-etal-2024-part,
     title = "Part-of-speech Tagging for Extremely Low-resource {I}ndian Languages",
-    author = "Kumar, Sanjeev  and
-      Jyothi, Preethi  and
+    author = "Kumar, Sanjeev and
+      Jyothi, Preethi and
       Bhattacharyya, Pushpak",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
     month = aug,
@@ -51,5 +52,4 @@ If you're using the dataset, please cite
     url = "https://aclanthology.org/2024.findings-acl.857/",
     doi = "10.18653/v1/2024.findings-acl.857",
     pages = "14422--14431",
-    
 }
