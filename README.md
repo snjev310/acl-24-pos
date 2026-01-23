@@ -89,6 +89,7 @@ All models are used **without fine-tuning on the target languages**, strictly in
 
 ---
 
+
 ## 6. Methods Implemented
 
 ### 6.1 Baseline (Zero-shot)
@@ -149,7 +150,24 @@ Scripts:
 - Pandas
 - NumPy
 
+## 8. 🚀 Getting Started
+You can load the dataset directly using the Hugging Face `datasets` library:
 
+```python
+from datasets import load_dataset
+
+# Load the test split
+dataset = load_dataset("snjev310/bihari-languages-upos", split="test")
+
+# Access the first sentence in Angika
+print(f"Tokens: {dataset[0]['angika_token']}")
+print(f"UPOS IDs: {dataset[0]['angika_upos']}")
+
+# Map integer IDs back to tag names
+labels = dataset.features["angika_upos"].feature.names
+readable_tags = [labels[i] for i in dataset[0]['angika_upos']]
+print(f"UPOS Tags: {readable_tags}")
+```
 ## Citation
 
 If you use the dataset or code from this repository, please cite the following paper:
